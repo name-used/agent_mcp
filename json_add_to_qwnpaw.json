@@ -1,0 +1,16 @@
+{
+  "key": "safe_workspace",
+  "name": "safe_workspace",
+  "description": "",
+  "enabled": true,
+  "transport": "stdio",
+  "url": "",
+  "headers": {},
+  "command": "/path_to/python",
+  "args": [
+    "/path_to_the_server_dot_py_you_donwloaded/server.py"
+  ],
+  "env": {},
+  "cwd": "/root_of_the_server_dot_py_you_donwloaded/",
+  "oauth_status": null
+}

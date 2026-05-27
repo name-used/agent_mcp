@@ -1,8 +1,10 @@
 {
   "allow_roots": [
-    "/media/totem_disk/totem/jizheng/workspace_2026/agent_learn/sand_box"
+    "/path_to/sand_box"
   ],
-  "deny_paths": [],
+  "deny_paths": [
+    "/path_to/sand_box/deny_path"
+  ],
   "blocked_extensions": [
     ".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp",
     ".pdf", ".zip", ".tar", ".gz", ".7z", ".rar",

@@ -7,7 +7,7 @@ mcp = FastMCP("safe_workspace")
 
 
 ALLOWED_ROOTS = [
-    Path("/media/totem_disk/totem/jizheng/workspace_2026/agent_learn").resolve(),
+    Path("/path_to/agent_learn").resolve(),
 ]
 
 
