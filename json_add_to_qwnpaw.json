@@ -8,9 +8,9 @@
   "headers": {},
   "command": "/path_to/python",
   "args": [
-    "/path_to_the_server_dot_py_you_donwloaded/server.py"
+    "/path_to/safe_workspace_mcp/server.py"
   ],
   "env": {},
-  "cwd": "/root_of_the_server_dot_py_you_donwloaded/",
+  "cwd": "/path_to/safe_workspace_mcp",
   "oauth_status": null
 }

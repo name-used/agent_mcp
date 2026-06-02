@@ -1,8 +1,6 @@
 {
   "allow_roots": [
-    "/path_to/sand_box",
-    "/path_to/memory_box/",
-    "/root/.qwenpaw/workspaces/"
+    "/path_to/sand_box"
   ],
   "deny_paths": [],
   "blocked_extensions": [
@@ -48,18 +46,10 @@
   },
   "run_python": {
     "enabled": true,
-    "python_bin": "/path_to/python",
+    "python_bin": "",
     "cwd": "/path_to/sand_box",
-    "allow_paths": [
-      "/path_to/sand_box/main_feat.py",
-      "/path_to/sand_box/main_train.py",
-      "/path_to/sand_box/metric_show.py",
-      "/path_to/sand_box/check_data_info.py",
-      "/path_to/sand_box/tests"
-    ],
-    "deny_paths": [
-      "/path_to/sand_box/.git"
-    ],
+    "allow_paths": [],
+    "deny_paths": [],
     "max_timeout_sec": 3600,
     "max_stdout_chars": 12000,
     "max_stderr_chars": 12000,
